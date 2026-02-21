@@ -1,86 +1,116 @@
-🚚 Advanced Last-Mile Route Optimization System
+# 🚚 Advanced Last-Mile Route Optimization System
 
-Traffic-Aware Delivery Planning using OR-Tools
+### Traffic-Aware Delivery Planning using OR-Tools
 
-📌 Project Overview
-The Advanced Last-Mile Route Optimization System is a Data Science & Analytics project designed to improve delivery efficiency by optimizing vehicle routes while simulating traffic conditions.
-This project calculates the most efficient delivery sequence using Google's OR-Tools optimization engine and generates multiple outputs for route analysis and comparison.
-The final route visualization is generated as an interactive HTML map that opens directly in a web browser.
+---
 
-🎯 Objective
-Optimize delivery routes using combinatorial optimization
-Minimize travel distance and time
-Simulate traffic impact on routes
-Generate multiple analytical outputs
-Provide browser-based interactive map visualization
+## 📌 Project Overview
 
-❗ Problem Statement
+The Advanced Last-Mile Route Optimization System is a Data Science & Analytics project designed to improve delivery efficiency using combinatorial optimization techniques.
+
+This system calculates the most efficient delivery sequence using Google OR-Tools and generates interactive HTML map outputs that open directly in a web browser.
+
+---
+
+## 🎯 Objective
+
+- Optimize delivery routes using advanced optimization algorithms
+- Minimize travel distance and delivery time
+- Simulate traffic impact on routes
+- Generate multiple analytical outputs
+- Provide browser-based interactive visualization
+
+---
+
+## ❗ Problem Statement
+
 In real-world logistics operations:
-Poor route planning increases delivery delays
-Traffic congestion affects delivery efficiency
-Manual planning leads to higher fuel consumption
-Businesses lack analytical comparison between normal and traffic-aware routes
-This project solves these challenges using advanced route optimization techniques.
 
-🛠️ Tools & Technologies Used
-Python – Core programming language
-NumPy – Distance matrix calculations
-Pandas – Data handling & processing
-Folium – Interactive map generation
-OR-Tools (Google Optimization Engine) – Vehicle routing optimization
-OS / Web Browser – For opening HTML outputs
+- Poor route planning increases delivery delays
+- Traffic congestion affects delivery efficiency
+- Manual planning leads to higher fuel consumption
+- Lack of visual comparison between normal and traffic-aware routes
 
-⚙️ Methodology
-Load warehouse and delivery stop data
-Create distance matrix using NumPy
-Apply OR-Tools Vehicle Routing Problem (VRP) algorithm
-Simulate traffic levels (Low / Medium / High)
-Generate optimized route outputs
-Export interactive HTML maps
+This project solves these challenges using Vehicle Routing Problem (VRP) optimization techniques.
 
-🗂️ Project Outputs
-This project generates three outputs:
-🟢 1️⃣ Normal Route Map (HTML)
-Optimized route without traffic consideration
-Displays delivery sequence clearly
-Saved as .html file
-Automatically opens in browser
+---
 
-🔴 2️⃣ Traffic-Aware Route Map (HTML)
-Route adjusted based on traffic simulation
-Traffic levels color-coded
-Shows impact of congestion on delivery path
-Opens directly in web browser
+## 🛠️ Tools & Technologies Used
 
-📄 3️⃣ Text Report (TXT File)
-Total distance covered
-Delivery sequence order
-Traffic impact comparison
-Saved as .txt file
+- Python  
+- NumPy  
+- Pandas  
+- Folium  
+- OR-Tools  
 
-🗺️ Output Visualization
-Both map outputs are generated as interactive HTML files.
-When executed, the program automatically opens the route map in the default web browser, allowing the user to:
-Zoom in/out
-Click delivery markers
-View route paths
-Analyze traffic effect visually
+---
 
-✨ Key Features
-Advanced VRP optimization using OR-Tools
-Traffic simulation logic
-Multiple output generation
-Browser-based interactive visualization
-Practical real-world logistics application
+## ⚙️ Methodology
 
-🚀 Future Enhancements
-Real-time traffic API integration
-Multi-vehicle optimization
-Delivery time window constraints
-Web dashboard deployment
-Live route tracking
+1. Load warehouse and delivery stop data  
+2. Create distance matrix using NumPy  
+3. Apply OR-Tools VRP algorithm  
+4. Simulate traffic conditions (Low / Medium / High)  
+5. Generate optimized route  
+6. Export interactive HTML maps  
 
-📊 Internship Domain
-Machine Learning with Python
+---
 
+## 🗂️ Project Outputs
+
+### 🟢 1. Normal Route Map
+
+- Optimized route without traffic simulation  
+- Saved as `.html` file  
+- Opens automatically in web browser  
+
+### 🔴 2. Traffic-Aware Route Map
+
+- Route adjusted based on traffic levels  
+- Color-coded visualization  
+- Opens directly in web browser  
+
+### 📄 3. Text Report
+
+- Total distance covered  
+- Delivery sequence order  
+- Traffic impact comparison  
+- Saved as `.txt` file  
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+After execution, the generated HTML files will automatically open in your default web browser.
+
+---
+
+## ✨ Key Features
+
+- Advanced VRP optimization  
+- Traffic simulation logic  
+- Multiple output generation  
+- Interactive browser-based maps  
+- Real-world logistics application  
+
+---
+
+## 🚀 Future Scope
+
+- Real-time traffic API integration  
+- Multi-vehicle optimization  
+- Time-window delivery constraints  
+- Web-based dashboard deployment  
+
+---
+
+## 📊 Internship Domain
+
+Machine Learning with Python 
 Year: 2026
+
