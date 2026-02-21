@@ -1,0 +1,14 @@
+Traffic Analysis Report
+========================
+
+Mumbai - Traffic Level: 80%
+Pune - Traffic Level: 60%
+Nagpur - Traffic Level: 40%
+Nashik - Traffic Level: 50%
+Aurangabad - Traffic Level: 30%
+
+Summary:
+------------------------
+Highest Traffic: Mumbai
+Lowest Traffic: Aurangabad
+Average Traffic: 52.00%
